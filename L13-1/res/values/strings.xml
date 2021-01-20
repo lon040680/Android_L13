@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyMenu</string>
+    <string name="concte">聯絡</string>
+    <string name="leavemassage">留言</string>
+    <string name="ai">欸 !</string>
+    <string name="aboume">關於我</string>
+    <string name="enmail">電子郵件</string>
+    <string name="crame">相機</string>
+    <string name="exit">離開</string>
+</resources>

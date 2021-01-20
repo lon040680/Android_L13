@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- showAsAction = "always" 永遠都在外面BAR上 可以顯示icon,
+    "ifRoom" 有空位才在外面可以顯示icon, "never" 永遠都在裡面不顯示icon,
+     如果不寫showAsAction 預設是 "never"-
+     如果不設定iCon 都是顯示字
+     -->
+    <item android:id="@+id/item_1"
+            android:icon="@android:drawable/ic_delete"
+            android:title="@string/exit"
+            app:showAsAction="always"/>
+    <item android:id="@+id/item_2"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="@string/crame"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/item_3"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="@string/enmail"
+        app:showAsAction="never"/>
+    <item android:id="@+id/item_4"
+        android:title="@string/aboume" />
+    <item android:id="@+id/item_5"
+        android:title="@string/ai">
+        <menu>
+            <item android:id="@+id/item_5_1"
+                android:title="@string/concte" />
+            <item
+                android:id="@+id/item_5_2"
+                android:title="@string/leavemassage" />
+        </menu>
+    </item>
+</menu>
